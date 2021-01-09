@@ -11,13 +11,10 @@
 #welcomeBanner div h1 {
   color: rgb(90, 29, 55);
   font-family: "Texturina", serif;
-}
-
-h1 {
   padding-top: 30px;
 }
 
-img {
+.container .col-md-6 img {
   margin-top: 40px;
   border-radius: 3%;
 }
@@ -31,18 +28,15 @@ img {
 }
 
 @media (max-width: 880px) {
-  img {
+  .container .col-md-6 img {
     margin-bottom: 80px;
   }
-
- 
 
   #welcomeBanner div h1 {
     font-size: 30px;
   }
 
   .about-me p {
-
-    font-size:20px;
+    font-size: 20px;
   }
 }

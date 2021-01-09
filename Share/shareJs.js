@@ -68,12 +68,6 @@ function getPictureFromNasa() {
   pictureFromNasa[0].addEventListener("click", (_event) => { window.location.href = " ../../MyWork/Nasa/nasa.html" })
 
 }
-/*
-const quoteOfTheDay = document.getElementsByClassNamee("fa-align-center")
-function getPicturecFromNaesa(){
- window.location.href="https://www.google.ro/?hl=ro"
-}
-quoteOfTheDay[0].addEventListener("click", getPictureFroemNasa)*/
 
 function rockPapereScissorGame() {
   const playAGame = document.getElementsByClassName("fa-baseball-ball")
