@@ -4,7 +4,7 @@ function getPictureNasa() {
 }
 function HangmanGame() {
     const hangman = document.getElementsByClassName("thumbnail")
-    hangman[1].addEventListener("click", (_event) => { window.location.href = " https://www.google.ro/?hl=ro" })
+    hangman[1].addEventListener("click", (_event) => { window.location.href = "../../MyWork/hangman/index.html " })
 }
 function rockPaperScissorsGame() {
     const rockPaper = document.getElementsByClassName("thumbnail")
@@ -16,7 +16,7 @@ function movieList() {
 }
 function getQuoteOfTheDay() {
     const quote = document.getElementsByClassName("thumbnail")
-    quote[4].addEventListener("click", (_event) => { window.location.href = " https://www.google.ro/?hl=ro" })
+    quote[4].addEventListener("click", (_event) => { window.location.href = " ../../MyWork/quote/quote.html" })
 }
 function gamesList() {
     const gameList = document.getElementsByClassName("thumbnail")
