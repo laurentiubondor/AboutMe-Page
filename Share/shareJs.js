@@ -69,6 +69,12 @@ function getPictureFromNasa() {
 
 }
 
+function qouteOfTheDay() {
+  const quote = document.getElementsByClassName("fa-align-center")
+  quote[0].addEventListener("click", (_event) => { window.location.href = " ../../MyWork/quote/quote.html" })
+
+}
+
 function rockPapereScissorGame() {
   const playAGame = document.getElementsByClassName("fa-baseball-ball")
   playAGame[0].addEventListener("click", (_event) => { window.location.href = " ../../MyWork/rockpaperGame/play.html" })
@@ -96,6 +102,7 @@ linkedinContact()
 facebookContact()
 rockPapereScissorGame()
 getPictureFromNasa()
+qouteOfTheDay()
 
 
 
