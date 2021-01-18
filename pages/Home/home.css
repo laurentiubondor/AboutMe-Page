@@ -20,11 +20,12 @@
 }
 
 .about-me {
+
   font-family: "Texturina", serif;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
-  font-size: 25px;
+  font-size: 22px;
 }
 
 @media (max-width: 880px) {
